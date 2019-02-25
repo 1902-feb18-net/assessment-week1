@@ -13,8 +13,8 @@ namespace Palindromes.Testing
         [InlineData("nurses run")]
         public void IsPalindrome(string data)
         {
-            var pal = new Palindromes();
-            Assert.True(ISAPalindrome(data));
+            var pal = new Palindrom();
+            Assert.True(pal.ISAPalindrome(data));
         }
 
 
@@ -23,9 +23,9 @@ namespace Palindromes.Testing
         [InlineData("123abccba123")]
         public void IsNotPalindrome(string data)
         {
-            var pal = new Palindromes();
+            var pal = new Palindrom();
 
-            Assert.False(ISAPalindrome(data));
+            Assert.False(pal.ISAPalindrome(data));
         }
     }
 }

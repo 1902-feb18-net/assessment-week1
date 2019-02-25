@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace Palindromes.Library
 {
-    public class Palindromes
+    public class Palindrom
     {
-        static public bool ISAPalindrome(string pal)
+        public bool ISAPalindrome(string pal)
         {
             return pal.SequenceEqual(pal.Reverse());
         }
