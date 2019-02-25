@@ -8,7 +8,7 @@ namespace Palindrome.Library
     //ignoring case sensitivity, special characters and whitespaces
     public class Class1
     {
-        Regex letter = new Regex(@"[a-z0-9]");
+        Regex character = new Regex(@"[a-z0-9]"); 
         string reverse;
         string forward;
 
@@ -19,7 +19,7 @@ namespace Palindrome.Library
 
             foreach (char item in input.ToLower())
             {
-                if (letter.IsMatch(item.ToString()) )
+                if (character.IsMatch(item.ToString()) )
                 {
                     forward = forward + item; //append
                     reverse = item + reverse; //prepend
