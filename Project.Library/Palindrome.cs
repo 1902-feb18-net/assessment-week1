@@ -6,18 +6,15 @@ namespace assessment_week1
     {
         static void Main(string[] args)
         {
-            while(false)
-            {
-                Console.WriteLine("Enter a word to check if Palindrome:");
-                string w = Console.ReadLine();
-                checkPalindrome(w);
-
-            }
+           
+            Console.WriteLine("Enter a word to check if Palindrome:");
+            string w = Console.ReadLine();
+            checkPalindrome(w);
 
 
         }
 
-        public bool checkPalindrome(string word){
+        public static bool checkPalindrome(string word){
             
 
             for (int i = 0; i < word.Length; i++)
