@@ -10,6 +10,7 @@ namespace Palindromes.Library
             pal = pal.Replace(" ", "");
             pal = pal.Replace(".", "");
             pal = pal.Replace(",", "");
+            pal = pal.ToLower();
             return pal.SequenceEqual(pal.Reverse());
         }
     }
