@@ -16,6 +16,7 @@ namespace assessment_week1{
             word.Equals("racecaR");
 
             //Assert
+            Assert.True(result);
 
         }
 
@@ -23,8 +24,13 @@ namespace assessment_week1{
         public void NotAPalindrome()
         {
             //Arrange
-            
+            var word = new Palindrome();
+
+            //Act
+            word.Equals("123abccba123");
+
             //Assert
+            Assert.False(result);
 
         }
         
