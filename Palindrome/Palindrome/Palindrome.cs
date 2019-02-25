@@ -7,12 +7,15 @@ namespace Palindrome
     {
         public bool CheckPalindrome (string myString)
         {
+            // lower case string
             string newString = myString.ToLower();
-            newString = Regex.Replace(newString, "[^\\w\\.]", "");
+            newString = newString.Replace(" ", String.Empty);
+            // attempts to remove all special characters
+            newString = Regex.Replace(newString, @"[^0-9a-zA-Z]+", "");
 
             for (int i = 0; i < newString.Length / 2; i++)
             {
-                if(newString[i] != newString[myString.Length - i - 1])
+                if(newString[i] != newString[newString.Length - i - 1])
                 {
                     return false;
                 }
