@@ -2,7 +2,7 @@
 
 namespace PalindromeLibrary
 {
-    public static class Palindrome
+    public static class StrPalindrome
     {
         public static bool CheckPalindrome(string input)
         {
@@ -12,14 +12,12 @@ namespace PalindromeLibrary
             output = output.Replace(",", String.Empty);
             output = output.Replace(".", String.Empty);
 
-
             // Now try and reverse the string
             // https://www.tutorialspoint.com/Chash-program-to-check-if-a-string-is-palindrome-or-not
             char[] ch = output.ToCharArray();
 
             Array.Reverse(ch);
             string reversed = new string(ch);
-
 
             return output.Equals(reversed, StringComparison.OrdinalIgnoreCase);
 

@@ -3,7 +3,7 @@ using PalindromeLibrary;
 
 namespace Palindrome
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -14,17 +14,17 @@ namespace Palindrome
             string input5 = "one two one";
             string input6 = "123abccba123";
 
-            var result1 = PalindromeLibrary.Palindrome.CheckPalindrome(input1);
+            var result1 = StrPalindrome.CheckPalindrome(input1);
             Console.WriteLine(result1);
-            var result2 = PalindromeLibrary.Palindrome.CheckPalindrome(input2);
+            var result2 = StrPalindrome.CheckPalindrome(input2);
             Console.WriteLine(result2);
-            var result3 = PalindromeLibrary.Palindrome.CheckPalindrome(input3);
+            var result3 = StrPalindrome.CheckPalindrome(input3);
             Console.WriteLine(result3);
-            var result4 = PalindromeLibrary.Palindrome.CheckPalindrome(input4);
+            var result4 = StrPalindrome.CheckPalindrome(input4);
             Console.WriteLine(result4);
-            var result5 = PalindromeLibrary.Palindrome.CheckPalindrome(input5);
+            var result5 = StrPalindrome.CheckPalindrome(input5);
             Console.WriteLine(result5);
-            var result6 = PalindromeLibrary.Palindrome.CheckPalindrome(input6);
+            var result6 = StrPalindrome.CheckPalindrome(input6);
             Console.WriteLine(result6);
 
 
