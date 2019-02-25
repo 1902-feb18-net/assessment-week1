@@ -1,19 +1,20 @@
 using System;
 using Xunit;
+using Palindromes.Library;
 
 namespace Palindromes.Testing
 {
     public class PalindromTest
     {
         [Theory]
-        [InlineData ("racecaR")]
-        [InlineData ("1221")]
-        [InlineData ("never odd, or even.")]
-        [InlineData ("nurses run")]
+        [InlineData("racecaR")]
+        [InlineData("1221")]
+        [InlineData("never odd, or even.")]
+        [InlineData("nurses run")]
         public void IsPalindrome(string data)
         {
-            var pal = new Palindrome();
-            Assert.True(IsAPalindrome(data));
+            var pal = new Palindromes();
+            Assert.True(ISAPalindrome(data));
         }
 
 
@@ -22,5 +23,9 @@ namespace Palindromes.Testing
         [InlineData("123abccba123")]
         public void IsNotPalindrome(string data)
         {
+            var pal = new Palindromes();
 
+            Assert.False(ISAPalindrome(data));
         }
+    }
+}

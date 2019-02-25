@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 
-namespace Palindromes
+namespace Palindromes.Library
 {
-    public class Palindrome
+    public class Palindromes
     {
         static public bool ISAPalindrome(string pal)
         {
