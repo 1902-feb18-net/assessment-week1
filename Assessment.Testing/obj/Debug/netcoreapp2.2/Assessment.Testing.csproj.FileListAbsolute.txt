@@ -1,0 +1,11 @@
+/Users/waldo/assessment-week1/Assessment.Testing/bin/Debug/netcoreapp2.2/Assessment.Testing.deps.json
+/Users/waldo/assessment-week1/Assessment.Testing/bin/Debug/netcoreapp2.2/Assessment.Testing.runtimeconfig.json
+/Users/waldo/assessment-week1/Assessment.Testing/bin/Debug/netcoreapp2.2/Assessment.Testing.runtimeconfig.dev.json
+/Users/waldo/assessment-week1/Assessment.Testing/bin/Debug/netcoreapp2.2/Assessment.Testing.dll
+/Users/waldo/assessment-week1/Assessment.Testing/bin/Debug/netcoreapp2.2/Assessment.Testing.pdb
+/Users/waldo/assessment-week1/Assessment.Testing/obj/Debug/netcoreapp2.2/Assessment.Testing.csprojAssemblyReference.cache
+/Users/waldo/assessment-week1/Assessment.Testing/obj/Debug/netcoreapp2.2/Assessment.Testing.csproj.CoreCompileInputs.cache
+/Users/waldo/assessment-week1/Assessment.Testing/obj/Debug/netcoreapp2.2/Assessment.Testing.AssemblyInfoInputs.cache
+/Users/waldo/assessment-week1/Assessment.Testing/obj/Debug/netcoreapp2.2/Assessment.Testing.AssemblyInfo.cs
+/Users/waldo/assessment-week1/Assessment.Testing/obj/Debug/netcoreapp2.2/Assessment.Testing.dll
+/Users/waldo/assessment-week1/Assessment.Testing/obj/Debug/netcoreapp2.2/Assessment.Testing.pdb
