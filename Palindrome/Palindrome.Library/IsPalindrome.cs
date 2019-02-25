@@ -10,24 +10,30 @@ namespace Palindrome.Library
             string check = "";
             string temp = new string(s);
 
-            temp.ToLower();
-
-            if(temp.Contains(" "))
-                temp.Replace(" ","");
-            if(temp.Contains(","))
-                temp.Replace(",", "");
-
-            if(s.Equals(null))
+            if (s == null)
             {
-                throw new ArgumentNullException("String cannot be null.", nameof(s));
+                throw new ArgumentNullException("String must not be null.", nameof(s));
             }
+            else if(s == "")
+            {
+                throw new ArgumentException("String must not be empty", nameof(s));
+            }
+
+            temp = temp.ToLower();
+
+
+            if (temp.Contains(" "))
+                temp.Replace(" ", "");
+            if (temp.Contains(","))
+                temp.Replace(",", "");
+            
 
             foreach (char c in temp)
             {
-                check = temp + check;
+                check = c + check;
             }
 
-            if (s.Equals(check)) return true;
+            if (temp.Equals(check)) return true;
 
             return false;
         }
