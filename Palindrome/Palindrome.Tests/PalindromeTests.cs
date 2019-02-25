@@ -10,6 +10,8 @@ namespace Palindrome.Tests
         [InlineData("nurses run")]
         [InlineData("never odd, or even.")]
         [InlineData("racecaR")]
+        [InlineData("1221")]
+        [InlineData("one two one")] // should fail
         public void CheckIfPalindromeIsValid2(string myString)
         {
             // arrange
