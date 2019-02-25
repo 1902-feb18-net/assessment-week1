@@ -49,5 +49,21 @@ namespace Palindrome.Test
             // Assert
             Assert.True(result);
         }
+
+        [Theory]
+        [InlineData("one two one")]
+        [InlineData("123abccba123")]
+        public void NotAPalindromeShouldReturnFalse(string val)
+        {
+            // Arrange
+            IsPalindrome p = new IsPalindrome();
+            string s = val;
+
+            // Act
+            var result = p.CheckIfPalindrome(s);
+
+            // Assert
+            Assert.False(result);
+        }
     }
 }

@@ -19,14 +19,12 @@ namespace Palindrome.Library
                 throw new ArgumentException("String must not be empty", nameof(s));
             }
 
-            temp = temp.ToLower();
-
-
             if (temp.Contains(" "))
-                temp.Replace(" ", "");
+                temp = temp.Replace( " ", "");
             if (temp.Contains(","))
-                temp.Replace(",", "");
-            
+                temp = temp.Replace(",", "");
+
+            temp = temp.ToLower();
 
             foreach (char c in temp)
             {
