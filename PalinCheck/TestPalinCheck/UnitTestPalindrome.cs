@@ -6,21 +6,27 @@ namespace TestPalinCheck
 {
     public class UnitTestPalindrome
     {
-        [Fact]
-        public void IsPalindrome()
+        [Theory]
+        [InlineData("nurses run")]
+        [InlineData("racecaR")]
+        [InlineData("1221")]
+        [InlineData("never odd, or even.")]
+        public void IsPalindrome(string value)
         {
             var checkstring = new checkString();
-            bool flag = checkstring.check("never odd, or even.");
+            bool flag = checkstring.check(value);
 
             Assert.True(flag);
 
         }
 
-        [Fact]
-        public void IsNotPalindrome()
+        [Theory]
+        [InlineData("one two one")]
+        [InlineData("123abccba123")]
+        public void IsNotPalindrome(string value)
         {
             var checkstring = new checkString();
-            bool flag = checkstring.check("123abccba123");
+            bool flag = checkstring.check(value);
 
             Assert.False(flag);
 
