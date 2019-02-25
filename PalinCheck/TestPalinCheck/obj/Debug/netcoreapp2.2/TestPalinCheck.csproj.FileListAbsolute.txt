@@ -1,0 +1,17 @@
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\TestPalinCheck.deps.json
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\TestPalinCheck.runtimeconfig.json
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\TestPalinCheck.runtimeconfig.dev.json
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\TestPalinCheck.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\TestPalinCheck.pdb
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\PalinCheck.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\bin\Debug\netcoreapp2.2\PalinCheck.pdb
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.csprojAssemblyReference.cache
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.csproj.CoreCompileInputs.cache
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.AssemblyInfoInputs.cache
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.AssemblyInfo.cs
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.csproj.CopyComplete
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\TestPalinCheck\obj\Debug\netcoreapp2.2\TestPalinCheck.pdb

@@ -1,0 +1,9 @@
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\bin\Debug\netcoreapp2.2\PalinCheck.deps.json
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\bin\Debug\netcoreapp2.2\PalinCheck.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\bin\Debug\netcoreapp2.2\PalinCheck.pdb
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\obj\Debug\netcoreapp2.2\PalinCheck.csprojAssemblyReference.cache
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\obj\Debug\netcoreapp2.2\PalinCheck.csproj.CoreCompileInputs.cache
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\obj\Debug\netcoreapp2.2\PalinCheck.AssemblyInfoInputs.cache
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\obj\Debug\netcoreapp2.2\PalinCheck.AssemblyInfo.cs
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\obj\Debug\netcoreapp2.2\PalinCheck.dll
+C:\Revature\coding-assessment\assessment-week1\PalinCheck\PalinCheck\obj\Debug\netcoreapp2.2\PalinCheck.pdb

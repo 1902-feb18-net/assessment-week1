@@ -13,7 +13,8 @@ namespace PalinCheck
                 result = item + result;
             }
 
-            if (inputString == result)
+            if (inputString.ToLower().Replace(" ","").Replace(".","").Replace(",","") 
+                == result.ToLower().Replace(" ", "").Replace(".", "").Replace(",", ""))
             {
                 return true;
             }
