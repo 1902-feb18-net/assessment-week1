@@ -6,35 +6,9 @@ namespace Assessment.Library
     {
         public bool palindrome(string input)
         {
-            int x = 0; 
-            int y = input.Length - 1; 
-        
-        input = input.ToLower(); 
-
-        while(x <= y) 
-        { 
-            char charX = input[x]; 
-            char charY = input[y]; 
-
-            if (!(charX >= 'a' &&  
-                  charY <= 'z')) 
-                x++; 
-
-            else if(! (charY >= 'a' && 
-                       charX <= 'z')) 
-                y--; 
-
-            else if( charX == charY) 
-            { 
-                x++; 
-                y--; 
-            } 
-
-            else
-                return false;
-        }
-
-            return true;
+        var s1 = input.ToLower().Where(c => Char.IsLetter(c));
+        var s2 = input.ToLower().Reverse().Where(c => Char.IsLetter(c));
+        return s1.SequenceEqual(s2);
         }
     }
 }
