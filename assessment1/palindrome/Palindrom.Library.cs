@@ -10,26 +10,39 @@ namespace palindrome
             if (input == null || input == "")
                 throw new ArgumentException("Cant have null or empty");
             input = input.ToLower();
-            List<char> inputList = new List<char>();
-            List<char> remList = new List<char>()
+            List<string> remList = new List<string>()
             {
-                ' ', ',', '.', '/', '?', ';', ':', '\'', '"', '[', ']', '{', '}', '|' 
+                " ",
+                ",",
+                ".",
+                "/",
+                "?",
+                ";",
+                ":",
+                @"\",
+                "\"",
+                "[",
+                "]",
+                "{",
+                "}",
+                "|",
             };
-            foreach(int x in input)
+            for (int y = 0; y < remList.Count; y++)
             {
-                inputList[x] = input[x];
+                if (input.Contains(remList[y]))
+                {
+                    input = input.Replace(remList[y], "");
+                }
             }
-            foreach (int y in remList)
-            {
-                input.Remove(remList[y]);
-            }
+            Console.WriteLine(input);
             string forward = "", backward = "";
-            for(int a = 0; a < inputList.Capacity; a++)
+            for(int a = 0; a < input.Length; a++)
             {
-                forward = forward + inputList[a];
-                backward = inputList[a] + backward;
+                forward = forward + input[a];
+                backward = input[a] + backward;
             }
-            if(forward == backward)
+            Console.WriteLine(forward + " " + backward);
+            if(forward.Equals(backward))
             {
                 return true;
             }
