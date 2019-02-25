@@ -3,7 +3,8 @@ using System.Text.RegularExpressions;
 
 namespace Palindrome.Library
 {
-    //Class for checking if given input string is a palindrome,
+    //Class for checking if given input string is a palindrome, 
+    //a string the same backwards as forwards,
     //ignoring case sensitivity, special characters and whitespaces
     public class Class1
     {
