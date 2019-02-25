@@ -3,13 +3,15 @@ using System.Text.RegularExpressions;
 
 namespace Palindrome.Library
 {
+    //Class for checking if given input string is a palindrome,
+    //ignoring case sensitivity, special characters and whitespaces
     public class Class1
     {
         Regex letter = new Regex(@"[a-z0-9]");
         string reverse;
         string forward;
 
-        public bool PalindromeCheck(string input)
+        public bool PalindromeCheck(string input) //checks if input string is a palindrome
         {
             reverse = "";
             forward = "";
@@ -23,7 +25,7 @@ namespace Palindrome.Library
                 }               
             }
 
-            return (forward == reverse);
+            return (forward == reverse);  //if they are the same, string is palindrome
         }
     }
 }
