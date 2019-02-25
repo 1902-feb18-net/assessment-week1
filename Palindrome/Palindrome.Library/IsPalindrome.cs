@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Palindrome.Library
 {
@@ -7,15 +8,23 @@ namespace Palindrome.Library
         public bool CheckIfPalindrome(string s)
         {
             string check = "";
+            string temp = new string(s);
+
+            temp.ToLower();
+
+            if(temp.Contains(" "))
+                temp.Replace(" ","");
+            if(temp.Contains(","))
+                temp.Replace(",", "");
 
             if(s.Equals(null))
             {
-                throw new ArgumentNullException("String cannot be null.", nameof(s);
+                throw new ArgumentNullException("String cannot be null.", nameof(s));
             }
 
-            foreach (char c in s)
+            foreach (char c in temp)
             {
-                check = s + check;
+                check = temp + check;
             }
 
             if (s.Equals(check)) return true;
