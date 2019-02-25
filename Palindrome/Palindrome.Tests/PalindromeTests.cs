@@ -6,16 +6,19 @@ namespace Palindrome.Tests
 {
     public class PalindromeTests
     {
-        [Fact]
-        public void CheckIfPalindromeIsValid()
+        [Theory]
+        [InlineData("nurses run")]
+        [InlineData("never odd, or even.")]
+        [InlineData("racecaR")]
+        public void CheckIfPalindromeIsValid2(string myString)
         {
             // arrange
             // let's test just one string first then use theory 
             var palindrome = new Palindrome();
-            var string1 = "nurses run";
+            //var string1 = "nurses run";
 
             // act
-            var result = palindrome.CheckPalindrome(string1);
+            var result = palindrome.CheckPalindrome(myString);
             Console.WriteLine("result is" + result);
             // assert
             Assert.True(result);
