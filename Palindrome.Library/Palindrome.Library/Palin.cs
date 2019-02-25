@@ -41,11 +41,11 @@ namespace Palindrome.Library
 
         public bool Drome()
         {
-            Clean(_first);
-            Clean(_second);
+           string temp1 = Clean(_first);
+           string temp2 = Clean(_second);
 
-            _first.Reverse();
-            return _first == _second;
+            temp1.Reverse();
+            return temp1 == temp2;
         }
     }
 }
